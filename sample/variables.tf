@@ -21,3 +21,7 @@ variable "servicename" {
 variable "action" {
   default = "kms.secrets.rotate"
 }
+
+variable "ibmcloud_api_key" {
+  default = "test"  
+}
