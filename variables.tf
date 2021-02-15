@@ -10,6 +10,7 @@ variable "displayname" {
   default = "Role1Display"
 }
 
+
 variable "description" {
   default = "Description for role"
 }
