@@ -1,5 +1,5 @@
 variable "name" {
-  default = "Role1"
+  default = "Role3"
 }
 
 variable "agname" {
@@ -9,7 +9,6 @@ variable "agname" {
 variable "displayname" {
   default = "Role1Display"
 }
-
 
 variable "description" {
   default = "Description for role"
@@ -21,4 +20,8 @@ variable "servicename" {
 
 variable "action" {
   default = "kms.secrets.rotate"
+}
+
+variable "ibmcloud_api_key" {
+  default = "test"  
 }
