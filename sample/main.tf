@@ -1,6 +1,4 @@
 provider "ibm" {
-  version          = "0.17.3"
-  ibmcloud_api_key = var.ibmcloud_api_key
 }
 
 data "ibm_iam_role_actions" "test" {
